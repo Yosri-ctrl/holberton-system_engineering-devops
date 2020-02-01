@@ -1,0 +1,14 @@
+total 48
+drwxrwxr-x 2 yosri yosri 4096 Feb  1 15:23 .
+drwxrwxr-x 6 yosri yosri 4096 Feb  1 12:55 ..
+-rwxrw-r-- 1 yosri yosri   38 Feb  1 13:24 0-hello_world
+-rwxrw-r-- 1 yosri yosri   25 Feb  1 13:26 1-confused_smiley
+-rwxrw-r-- 1 yosri yosri   28 Feb  1 13:28 2-hellofile
+-rwxrw-r-- 1 yosri yosri   39 Feb  1 14:24 3-twofile
+-rw-rw-rw- 1 yosri yosri   29 Feb  1 14:26 4-lastlines
+-rw-rw-rw- 1 yosri yosri   29 Feb  1 14:26 5-firstlines
+-rw-rw-rw- 1 yosri yosri   49 Feb  1 15:10 6-third_line
+-rw-rw-rw- 1 yosri yosri  110 Feb  1 15:22 7-file
+-rw-rw-rw- 1 yosri yosri    0 Feb  1 15:24 a
+-rw-rw-rw- 1 yosri yosri   45 Feb  1 15:21 \*\\'"Holberton
+-rwxrw-r-- 1 yosri yosri   24 Feb  1 12:55 README.md
