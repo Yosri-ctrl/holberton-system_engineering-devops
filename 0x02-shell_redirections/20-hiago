@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${str%.*}
+tr -d cC
