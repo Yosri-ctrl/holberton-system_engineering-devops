@@ -1,2 +1,0 @@
-#$!/bin/bash
-printf "" {[a..z][a..z]} | grep -v "oo"
