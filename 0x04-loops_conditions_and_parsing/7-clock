@@ -2,13 +2,13 @@
 #Clock 
 i=0
 j=1
-while (($i <= 12))
+while ((i <= 12))
 do
     echo Hour: $i
-    while (($j <= 59))
+    while ((j <= 59))
     do
         echo $j
-        j=$(($j+1))
+        j=$((j+1))
     done
     j=0
     i=$((i+1))
