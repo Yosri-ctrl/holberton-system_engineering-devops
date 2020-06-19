@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Create a SSH RSA key pair
-ssh-keygen -t rsa
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiaJMBOE2igc5Y9MIhCXXcrqpP9JRv/pGthb8tt+478usXRWX7/ahZE4gBRuMaaMpDJxWN5fypQ5AfArrS0omBbO+31dygR3VDr3Hj5By30jl/QdftFqkAIAf9UEX+Oky7wp5FJyeCRm8OazHz2KiTrD8/5Bi0+hEqnhsS66GRjaMx0gsVBfW5HYz9YkEH4Uwu573pmeX+rY2aKV/iwXgF5qfIkowcbSNjlI4ZK+BnnEMkVGj3JTowXrTamB4Wgp6JkwFF05TtL3lS7ajUF7MKvk2d+tQCgV+o0nzSTYH3Zaj+bOhQyBjQ1B8V1h8Jq01RAqTcbYWygwtUkIAQtjjV yurei@yurei-realm
