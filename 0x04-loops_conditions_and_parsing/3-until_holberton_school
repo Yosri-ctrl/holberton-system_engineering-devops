@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#until Holberton School loop
+i=1
+until [ $i -gt 10 ]
+do
+    echo "Holberton School"
+    i=$((i+1))
+done
