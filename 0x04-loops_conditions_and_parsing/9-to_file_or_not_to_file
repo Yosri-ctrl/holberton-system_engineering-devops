@@ -2,7 +2,7 @@
 #To file, or not to file
 file="holbertonschool"
 
-if test "$file"
+if [[ -e "$file" ]]
 then
     echo "holbertonschool file exists"
     if [ -s "$file" ]
