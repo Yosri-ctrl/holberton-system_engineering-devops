@@ -3,5 +3,6 @@
 #And changing the content of the html page
 sudo apt-get -y update
 sudo apt-get install -y nginx
+chmod o+w /var/www/html/index.nginx-debian.html
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
 sudo service nginx restart
