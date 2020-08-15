@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # changing all ocurrence of 8080 to 80
-# in the file /etc/nginx/sites-enabled/default
-# then retarting nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
+service nginx stop
