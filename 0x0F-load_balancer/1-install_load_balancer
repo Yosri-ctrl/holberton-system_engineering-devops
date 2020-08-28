@@ -6,5 +6,5 @@ sudo apt-get update
 sudo apt-get install haproxy -y
 echo 'ENABLED=1' >> /etc/default/haproxy
 sudo sed -i -e '$a\listen holberton\n\tbind *:80\n\tmode http\n\tstats enable\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor' /etc/haproxy/haproxy.cfg
-sudo sed -i -e '$a\\tserver 1405-web-01 34.74.10.151:80\n\tserver 1405-web-02 35.237.23.115:80' /etc/haproxy/haproxy.cfg
-sudo service haproxy start
+sudo sed -i -e '$a\\tserver 1405-web-01 34.74.10.151:80 check\n\tserver 1405-web-02 35.237.23.115:80 check' /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
