@@ -9,8 +9,9 @@ from sys import argv
 if __name__ == "__main__":
     id = argv[1]
     list = []
-    name = get("http://jsonplaceholder.typicode.com/users/{}"
-                            .format(id)).json().get("username")
+    name = get(
+        "http://jsonplaceholder.typicode.com/users/{}"
+        .format(id)).json().get("username")
     tasks = get("http://jsonplaceholder.typicode.com/todos").json()
 
     for task in tasks:
@@ -20,6 +21,6 @@ if __name__ == "__main__":
             temp["completed"] = task.get("completed")
             temp["username"] = name
             list.append(temp)
-        
+
     with open("{}.json".format(id), 'w+') as jsonfile:
         json.dump({id: list}, jsonfile)
