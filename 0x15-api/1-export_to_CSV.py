@@ -15,7 +15,7 @@ if __name__ == "__main__":
         .format(id)).json().get("name")
     tasks = get("http://jsonplaceholder.typicode.com/todos").json()
 
-    with open("{}.csv".format(id), "w+") as csvfile:
+    with open("{}.csv".format(id), "a") as csvfile:
         for task in tasks:
             if task.get('userId') == int(id):
                 csvfile.write('"{}","{}","{}","{}"\n'.format(
