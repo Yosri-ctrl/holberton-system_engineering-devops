@@ -11,8 +11,8 @@ if __name__ == "__main__":
     nbr_tasks = 0
     tasks_completed = []
 
-    name = get(
-        "https://jsonplaceholder.typicode.com/users/{}".format(id)).json().get("name")
+    name = get("https://jsonplaceholder.typicode.com/users/{}".format(id))
+    .json().get("name")
     tasks = get("http://jsonplaceholder.typicode.com/todos").json()
 
     for task in tasks:
@@ -22,6 +22,7 @@ if __name__ == "__main__":
             nbr_tasks += 1
 
     print("{} is done with tasks({}/{}):".format(name,
-                                                 len(tasks_completed), nbr_tasks))
+                                                 len(tasks_completed),
+                                                 nbr_tasks))
     for i in tasks_completed:
         print("\t {}".format(i.get("title")))
