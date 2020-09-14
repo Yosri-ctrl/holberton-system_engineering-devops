@@ -17,13 +17,14 @@ if __name__ == "__main__":
         list = []
 
         for task in tasks:
-            if (task.get("userId") == id and str(task.get("completed")) == "True"):
+            if (task.get("userId") == id and
+                    str(task.get("completed")) == "True"):
                 temp = {}
                 temp["task"] = task.get("title")
                 temp["completed"] = task.get("completed")
                 temp["username"] = name
                 list.append(temp)
         storage[id] = list
-    
+
     with open("todo_all_employees.json", 'w+') as jsonfile:
         json.dump(storage, jsonfile)
