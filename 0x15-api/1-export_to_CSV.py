@@ -2,9 +2,9 @@
 """
 export data in the CSV format
 """
-from sys import argv
-from requests import get
 import csv
+from requests import get
+from sys import argv
 
 
 if __name__ == "__main__":
