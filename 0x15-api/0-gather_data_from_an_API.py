@@ -7,6 +7,9 @@ from requests import get
 
 
 if __name__ == "__main__":
+    """
+    returns information about his/her TODO list progress
+    """
     id = argv[1]
     nbr_tasks = 0
     tasks_completed = []
